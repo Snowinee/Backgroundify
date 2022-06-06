@@ -1,0 +1,110 @@
+nav {
+  width: 100%;
+  -webkit-box-shadow: 0px 0px 10px 3px #646464;
+          box-shadow: 0px 0px 10px 3px #646464;
+}
+
+nav .navContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+nav .navContainer h1 {
+  color: var(--textColor);
+  font-weight: 700;
+}
+
+nav .navContainer ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 30px;
+}
+
+nav .navContainer ul li {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  cursor: pointer;
+}
+
+nav .navContainer ul li .active {
+  color: cadetblue;
+}
+
+nav .navContainer ul li a {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  color: var(--textColor);
+  font-weight: 200;
+  font-size: 18px;
+  text-decoration: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+nav .navContainer ul li a:hover {
+  color: cadetblue;
+}
+
+main .mainContainer {
+  text-align: center;
+  margin-top: 160px;
+}
+
+main .mainContainer h2 {
+  font-weight: 600px;
+  color: var(--textColor);
+}
+
+main .mainContainer button {
+  padding: 10px;
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 15px;
+  background-color: transparent;
+  border-radius: 5px;
+  color: var(--textColor);
+}
+
+main .mainContainer button:active {
+  font-size: 20px;
+}
+
+footer {
+  position: fixed;
+  background-color: var(--backgroundColor);
+  -webkit-box-shadow: 0px 0px 10px 3px #646464;
+          box-shadow: 0px 0px 10px 3px #646464;
+  width: 100%;
+  min-height: 30px;
+  bottom: 0;
+}
+
+footer .footerContainer {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+footer .footerContainer h3 {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  color: var(--textColor);
+  padding: 10px;
+}
+/*# sourceMappingURL=hex.css.map */

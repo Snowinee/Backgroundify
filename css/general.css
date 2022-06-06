@@ -1,0 +1,20 @@
+:root {
+  --backgroundColor: white;
+  --textColor: rgb(63, 63, 63);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: var(--backgroundColor);
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100vh;
+  -webkit-transition: all 0.1s;
+  transition: all 0.1s;
+}
+/*# sourceMappingURL=general.css.map */
